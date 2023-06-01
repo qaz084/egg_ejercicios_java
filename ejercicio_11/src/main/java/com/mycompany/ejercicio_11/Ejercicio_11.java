@@ -44,15 +44,13 @@ public class Ejercicio_11 {
     public static void cambiarCaracteres(String frase){
        String fraseLower=frase.toLowerCase();
         fraseLower=fraseLower.replace('a','@');
-        fraseLower= fraseLower.replace('e','@');
-        fraseLower= fraseLower.replace('i','@');
-        fraseLower= fraseLower.replace('o','@');
+        fraseLower= fraseLower.replace('e','#');
+        fraseLower= fraseLower.replace('i','$');
+        fraseLower= fraseLower.replace('o','*');
         
         System.out.println(fraseLower);
     }
-    
-    
-    
-  
 }
+
+
 

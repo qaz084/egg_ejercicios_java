@@ -1,8 +1,9 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.mycompany.ejercicios_13_guia;
+
+import java.util.Scanner;
 
 /**
  *
@@ -11,7 +12,13 @@ package com.mycompany.ejercicios_13_guia;
 public class Ejercicios_13_guia {
 
     public static void main(String[] args) {
-    
+
+        Scanner leer = new Scanner(System.in);
+        int cantElementos=0;
+        System.out.println("Ingrese la cantidad de elementos: ");
+        cantElementos=leer.nextInt();
+        
+
     }
 }
 
