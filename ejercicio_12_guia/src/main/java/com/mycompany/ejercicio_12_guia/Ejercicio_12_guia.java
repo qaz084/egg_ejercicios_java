@@ -40,7 +40,7 @@ public class Ejercicio_12_guia {
 
         } while (!frase.equals(FDE));
 
-        System.out.println("Intentos correctos: " + contadorCorrectas);
+        System.out.println("Intentos correctos: " +" "+ contadorCorrectas);
         System.out.println("Intentos incorrectos: " + contadorIncorrectas);
 
     }

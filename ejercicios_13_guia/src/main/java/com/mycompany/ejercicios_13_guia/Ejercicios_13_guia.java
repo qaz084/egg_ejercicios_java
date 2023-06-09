@@ -18,7 +18,30 @@ public class Ejercicios_13_guia {
         System.out.println("Ingrese la cantidad de elementos: ");
         cantElementos=leer.nextInt();
         
-
+        for (int i = 0; i < cantElementos; i++) {
+            
+//             if (i==0||i==cantElementos-1) {
+//                 System.out.print(" *");
+//            }
+            
+            for (int j = 0; j < cantElementos; j++) {
+                
+                if (i==0||i==cantElementos-1) {
+                     System.out.print(" *");
+                    
+                }
+                else{
+                    if (j==0||j==cantElementos-1) {
+                         System.out.print(" *");
+                    }else
+                    System.out.print("  ");
+                }
+                
+            }
+            
+            System.out.println("");
+        }
+            
     }
 }
 
