@@ -4,7 +4,6 @@
  */
 package poo_ej_3;
 
-import com.sun.media.sound.SoftAbstractResampler;
 import poo_ej_3.entidades.Operacion;
 import poo_ej_3.servicios.ServicioOperacion;
 
@@ -30,7 +29,7 @@ public class Poo_ej_3 {
        int resultadoMultiplicacion= so.multiplicar(op1);
         System.out.println("El resultado de la multiplicación es de :"+resultadoMultiplicacion);
         
-        int resultadoDivision= so.dividir(op1);
+        double resultadoDivision= so.dividir(op1);
         System.out.println("El resultado de la division es: "+resultadoDivision);
         
     }

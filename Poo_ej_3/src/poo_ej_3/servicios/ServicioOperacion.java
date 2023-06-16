@@ -36,11 +36,11 @@ public class ServicioOperacion {
             int resultadoMultiplicacion= op1.getNumero1()*op1.getNumero2();
        return resultadoMultiplicacion;
     }
-    public int dividir(Operacion op1){
+    public double dividir(Operacion op1){
         if(op1.getNumero1()==0 || op1.getNumero2()==0){
             System.out.println("Uno de los números es cero, no se puede dividir.");
         }
-       int resultadoDivision= op1.getNumero1()/op1.getNumero2();
+       double resultadoDivision= op1.getNumero1()/op1.getNumero2();
        return resultadoDivision;
     }
 }
